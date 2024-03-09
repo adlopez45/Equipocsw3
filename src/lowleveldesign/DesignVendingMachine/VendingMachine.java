@@ -1,7 +1,7 @@
-package DesignVendingMachine.ParcialVendingMachine;
+package lowleveldesign.DesignVendingMachine;
 
-import DesignVendingMachine.ParcialVendingMachine.VendingStates.State;
-import DesignVendingMachine.ParcialVendingMachine.VendingStates.impl.IdleState;
+import lowleveldesign.DesignVendingMachine.VendingStates.State;
+import lowleveldesign.DesignVendingMachine.VendingStates.impl.IdleState;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,7 @@ public class VendingMachine {
     private List<Coin> coinList;
 
     public VendingMachine(){
+        
         vendingMachineState = new IdleState();
         inventory = new Inventory(10);
         coinList = new ArrayList<>();

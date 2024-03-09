@@ -1,6 +1,6 @@
-package DesignVendingMachine.ParcialVendingMachine;
+package lowleveldesign.DesignVendingMachine;
 
-import DesignVendingMachine.ParcialVendingMachine.Item;
+import lowleveldesign.DesignVendingMachine.Item;
 
 public class ItemShelf {
 
