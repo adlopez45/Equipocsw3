@@ -1,4 +1,4 @@
-package DesignVendingMachine.ParcialVendingMachine;
+package lowleveldesign.DesignVendingMachine;
 
 public class Item {
     ItemType type;

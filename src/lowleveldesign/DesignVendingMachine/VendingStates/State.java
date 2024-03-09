@@ -1,8 +1,8 @@
-package DesignVendingMachine.ParcialVendingMachine.VendingStates;
+package lowleveldesign.DesignVendingMachine.VendingStates;
 
-import DesignVendingMachine.ParcialVendingMachine.Coin;
-import DesignVendingMachine.ParcialVendingMachine.Item;
-import DesignVendingMachine.ParcialVendingMachine.VendingMachine;
+import lowleveldesign.DesignVendingMachine.Coin;
+import lowleveldesign.DesignVendingMachine.Item;
+import lowleveldesign.DesignVendingMachine.VendingMachine;
 
 import java.util.List;
 
@@ -23,6 +23,5 @@ public interface State {
     public List<Coin> refundFullMoney(VendingMachine machine) throws Exception;
 
     public void updateInventory(VendingMachine machine, Item item, int codeNumber) throws Exception;
-
 
 }
