@@ -18,7 +18,7 @@ public class SocialMediaAuthenticator implements Authenticator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter social media credentials:");
         String socialMediaCredentials = scanner.nextLine();
-        // Lógica de autenticación con redes sociales
+ 
         return false;
     }
 

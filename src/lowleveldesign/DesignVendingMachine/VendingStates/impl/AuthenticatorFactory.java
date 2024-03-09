@@ -14,11 +14,11 @@ public class AuthenticatorFactory {
     
     public static Authenticator getAuthenticator(AuthenticationOption option) {
         switch (option) {
-            case USER_CREDENTIALS:
+            case UserCREDENTIALS:
                 return new UserCredentialsAuthenticator();
             case PIN:
                 return new PINAuthenticator();
-            case SOCIAL_MEDIA:
+            case SocialMEDIA:
                 return new SocialMediaAuthenticator();
             default:
                 throw new IllegalArgumentException("Invalid authentication option");

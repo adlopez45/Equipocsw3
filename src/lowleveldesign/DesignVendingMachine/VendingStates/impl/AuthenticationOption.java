@@ -9,8 +9,8 @@ package lowleveldesign.DesignVendingMachine.VendingStates.impl;
  * @author pipe2
  */
 public enum AuthenticationOption {
-    USER_CREDENTIALS,
+    UserCREDENTIALS,
     PIN,
-    SOCIAL_MEDIA
+    SocialMEDIA
     
 }
